@@ -5,7 +5,7 @@ pipeline {
         SONARQUBE_SERVER = 'SonarQube'           // Jenkins global SonarQube server name
         MAVEN_HOME = tool 'Maven 3'              // Jenkins Maven tool name
         NEXUS_REPO = 'maven-releases'            // Nexus repo name
-        NEXUS_URL = 'http://13.232.131.185:30801/'  // Nexus exposed via NodePort
+        NEXUS_URL = 'http://13.232.131.185:30801'  // Nexus exposed via NodePort
         NEXUS_CREDENTIALS_ID = 'nexus'     // Jenkins credentials ID
     }
  
